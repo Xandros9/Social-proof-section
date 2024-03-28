@@ -15,7 +15,7 @@ background-position:top left,  bottom 117% right -110px;
 .container{
     width: 100%;
     max-width: 1440px;
-    margin: 55px auto;
+    margin: 98px auto;
     display: flex;
     flex-wrap: wrap;
 }
