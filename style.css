@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+width: 100%;
+
+background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+background-repeat: no-repeat;
+background-position:top left,  bottom 117% right -110px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 55px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card-1{
+    width:483px;
+    padding: 20px;
+}
+.card-1 h1{
+    font-family: "League Spartan",sans-serif;
+    font-size: 51.6px;
+    font-weight: 700; 
+    color: hsl(300, 43%, 22%);
+    line-height: 47px;
+}
+
+
+.card-1 p{
+font-family: "League Spartan",sans-serif;
+font-size: 17px;
+font-weight: 600; 
+color: hsl(303, 10%, 53%);
+margin-top: 32px;
+word-spacing: 0.5px;
+line-height: 24px;
+}
+
+
+
+
+.card-2{
+    width: 600px;
+    margin: 36px 107px;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+ .rated-1{
+    display: flex;
+    justify-items: flex-end;
+    width: 445px;
+    height: 55px;
+    background: hsl(300, 24%, 96%);
+    margin: 7px 0;
+    margin-bottom: 0;
+    padding: 20px 22px;
+    border-radius: 8px;
+}
+
+.rated-1 img{
+    margin-left: 8.2px;
+   
+}
+
+.rated-1 h2{
+    display: flex;
+    font-family: "League Spartan",sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 32px;
+    color: hsl(300, 43%, 22%);
+}
+
+
+
+.rated-2{
+    display: flex;
+    width: 445px;
+    height: 55px;
+    background: hsl(300, 4%, 96%);
+    margin: 17px 42.7px;
+    padding: 20px 27px;
+    border-radius: 8px;
+}
+
+.rated-2 img{
+    margin-left: 8.2px;
+   
+}
+
+.rated-2 h2{
+    display: flex;
+    font-family: "League Spartan",sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-left: 32px;
+}
+
+
+
+
+.rated-3{
+    display: flex;
+    width: 445px;
+    height: 55px;
+    background: hsl(300, 24%, 96%);
+    margin: 0 96px;
+    padding: 20px 22px;
+    border-radius: 8px;
+}
+
+.rated-3 img{
+    margin-left: 8.2px;
+   
+}
+
+.rated-3 h2{
+    display: flex;
+    font-family: "League Spartan",sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-left: 32px;
+}
+
+
+
+.card-3{
+width: 100%;
+ display: flex;
+ margin: 48px 20px;
+}
+
+.Buyer-1{
+    width: 350px;
+    height: 234px;
+    padding: 40px 32px;
+    background:hsl(300, 43%, 22%);
+    border-radius: 8px;
+}
+
+.Buyer-1 figure{
+    display: flex;
+    align-items: cnter;    
+}
+
+.Buyer-1 img{
+  width: 40px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.Buyer-1 h2 ,h3{
+    font-family: "League Spartan",sans-serif;
+    font-size: 15px;
+    margin: 4px 24px;
+}
+
+.Buyer-1 h2{
+    font-size: 17px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.Buyer-1 h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    letter-spacing: 0.5px;
+}
+
+.Buyer-1 p{
+    font-family: "League Spartan",sans-serif;
+    font-size: 16.5px; 
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+    margin-top: 27px;
+    line-height: 21px;
+    text-indent: 5px;
+}
+
+
+.Buyer-2{
+    width: 350px;
+    height: 234px;
+    margin:16px 30px;
+    padding: 40px 32px;
+    background:hsl(300, 43%, 22%);
+    border-radius: 8px;
+}
+
+.Buyer-2 figure{
+    display: flex;
+    align-items: cnter;    
+}
+
+.Buyer-2 img{
+  width: 40px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.Buyer-2 h2 ,h3{
+    font-family: "League Spartan",sans-serif;
+    font-size: 15px;
+    margin: 4px 24px;
+}
+
+.Buyer-2 h2{
+    font-size: 17px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.Buyer-2 h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    letter-spacing: 0.5px;
+}
+
+.Buyer-2 p{
+    font-family: "League Spartan",sans-serif;
+    font-size: 16.7px; 
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+    margin-top: 27px;
+    line-height: 21px;
+    text-indent: 5px;
+}
+
+
+.Buyer-3{
+    width: 350px;
+    height: 234px;
+    margin:32px 0;
+    padding: 40px 32px;
+    background:hsl(300, 43%, 22%);
+    border-radius: 8px;
+}
+
+.Buyer-3 figure{
+    display: flex;
+    align-items: cnter;    
+}
+
+.Buyer-3 img{
+  width: 40px;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.Buyer-3 h2 ,h3{
+    font-family: "League Spartan",sans-serif;
+    font-size: 15px;
+    margin: 4px 24px;
+}
+
+.Buyer-3 h2{
+    font-size: 17px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.Buyer-3 h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(333, 80%, 67%);
+    letter-spacing: 0.5px;
+}
+
+.Buyer-3 p{
+    font-family: "League Spartan",sans-serif;
+    font-size: 16.7px; 
+    color: hsl(0, 0%, 100%);
+    padding: 0;
+    margin-top: 27px;
+    line-height: 21px;
+    text-indent: 5px;
+}
